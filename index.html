@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mi primer app</title>
+</head>
+<body>
+    <h2>CoderHouse</h2>
+
+    <p>Nombre de <strong>usuario</strong></p>
+    
+    <form> 
+
+        <input id="usuario" type="text" placeholder="Ingrese usuario">
+            <br>
+        <input id="password" type="password" placeholder="Ingrese contraseña">
+        <input type="submit" value="login">
+    </form>
+ 
+    <br>
+    <button id="login" class="button">Login</button>
+    <button class="button">Sign Up</button>
+    <button>Sign Out</button>
+
+    <br>
+
+    <ul id="personas"></ul>
+
+    <p><strong>Mi carrito de compras</strong></p>
+    <button id="clean">Limpiar Carrito</button>
+    <ul id="myCarrito"></ul>
+
+
+    
+    <form id="support">
+    <textarea name="" id="supportChat" cols="30" rows="10"></textarea>
+    <br>
+    <label></label>
+    <input id="supportInput" type="text" placeholder="Como lo puedo ayudar?">
+    <br>
+    <input type="submit" value="enviar">
+    </form>
+
+
+    
+
+
+
+    <script src="js/producto.js"></script>
+    <script src="js/user_profile.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

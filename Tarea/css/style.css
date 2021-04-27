@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+p{
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    padding-top: 10vh;
+    font-size: 1.2rem;
+    margin: 0;
+}
+#logo{
+    width: 100vw;
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: 'Righteous', cursive;
+    color: rgb(54, 54, 54);
+}
+#arg{
+    color: #08a05c;
+}
+#a{
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    margin: 0;
+}
+h2{
+    width: 100vw;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    padding-top: 5vh;
+    box-sizing: border-box;
+    color: #08a05c;
+    margin: 0;
+}
+h3{
+    width: 100vw;
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 10px;
+    box-sizing: border-box;
+    color: #08a05c;
+    margin: 0;
+}
